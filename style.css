@@ -391,6 +391,7 @@ footer {
     }
 }
 
+/* Mobile optimizations */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -452,16 +453,13 @@ footer {
 
 @media (max-width: 480px) {
     .nav-buttons {
-        flex-direction: column;
         gap: 5px;
-        width: 100%;
-        align-items: stretch;
+        justify-content: flex-end;
     }
     
     .nav-btn, .download-btn {
         font-size: 0.7rem;
         padding: 5px 10px;
-        text-align: center;
     }
     
     .hero {
